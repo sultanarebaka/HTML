@@ -1,10 +1,9 @@
 
-
-
 body { 
-min-width: 290px; 
-color: #4d4e53; 
-background-color: #ffffff; font-family: "Open Sans", Arial, sans-serif; 
+min-width: 90px; 
+color: black;
+background-color: #EFFFFD;
+ font-family: "Open Sans", Arial, sans-serif; 
 line-height: 1.5; 
 
 
@@ -19,7 +18,7 @@ line-height: 1.5;
  width: 300px; 
  height: 100%; 
  border-right: solid; 
- border-color: rgba(0, 22, 22, 0.4); 
+ border-color: black; 
  
  }
 
@@ -30,11 +29,13 @@ color: black;
 margin: 10px; 
 text-align: center; 
 font-size: 1.8em; 
+
 font-weight: thin; 
 } 
 
 #documentation h2 { 
 text-align: left; 
+
 margin: 0px; 
 
 } 
@@ -50,18 +51,19 @@ overflow-x: hidden;
 
 #sidebar li { 
 
-color: #4d4e53; 
+color: black;
 border-top: 1px solid; 
 list-style: none; 
 position: relative; 
 width: 100%; 
+font-weight:500;
 
 }
 
  #sidebar .nav-item { 
 display: block; 
 padding: 10px 30px; 
-color: #4d4e53; 
+color: black;
 text-decoration: none; 
 cursor: pointer; 
 }
@@ -75,13 +77,17 @@ margin-bottom: 110px;
 }
 
  section article { 
-color: #4d4e53; 
-margin: 15px; 
-font-size: 0.96em; 
+color: black;
+margin: 20px; 
+font-size: 1em;
+font-family:Times;
+
+font-weight:500;
+
 } 
 
 section li { 
-margin: 15px 0px 0px 20px; 
+margin: 20px 0px 0px 20px; 
 } 
 
 pre { 
@@ -91,10 +97,10 @@ white-space: pre-line;
 position: relative; 
 word-break: normal; 
 word-wrap: normal; 
-line-height: 2; 
-background-color: #f7f7f7; 
-padding: 15px; 
-margin: 10px; 
+line-height: 2.2; 
+background-color: #B8FFF9;
+padding: 20px; 
+margin: 20px; 
 border-radius: 5px; 
 
 } 
@@ -109,7 +115,7 @@ border-collapse: collapse;
 } 
 
 
-@media only screen and (max-width: 815px) { 
+@media only screen and (max-width: 400px) { 
 
  #sidebar ul { 
 border: 1px solid; 
@@ -118,7 +124,7 @@ height: 207px;
 }
 
  #sidebar { 
-background-color: white; 
+background-color: #EFFFFD;
 position: absolute; 
 top: 0; 
 padding: 0; 
@@ -126,18 +132,46 @@ margin: 0;
 width: 100%; 
 max-height: 275px; 
 border: none; 
-z-index: 1; 
+z-index: 100; 
 border-bottom: 2px solid; 
 } 
 
 #documentation {
 position: relative; 
 margin-left: 0px; 
-margin-top: 270px; 
+margin-top: 287px; 
 } } 
 
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 100px) { 
 #documentation { 
-margin-left: -10px;
+margin-left: -30px;
  } 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
